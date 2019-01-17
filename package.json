@@ -1,0 +1,47 @@
+{
+  "name": "web-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "author": "Bayram Bani",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.1.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-hot-middleware": "^2.24.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "datatables.net-bs4": "^1.10.19",
+    "datatables.net-dt": "^1.10.19",
+    "jquery": "^3.3.1",
+    "materialize-css": "^1.0.0",
+    "popper.js": "^1.14.6",
+    "react-router-dom": "^4.3.1"
+  },
+  "directories": {
+    "doc": "doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BayramBani/web-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BayramBani/web-starter/issues"
+  },
+  "homepage": "https://github.com/BayramBani/web-starter#readme",
+  "description": ""
+}
