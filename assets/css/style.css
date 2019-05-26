@@ -1,0 +1,8 @@
+@font-face {
+  font-family: fontParisienne;
+  src: url('../font/Parisienne-Regular.ttf');
+}
+
+.styled {
+  font-family: fontParisienne;
+}
