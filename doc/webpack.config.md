@@ -6,8 +6,7 @@
 const path = require('path');
 
 module.exports = {
-    entry: './src/index.js',
-    output: {
+    entry: index.js,App.jsput: {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist')
     }
