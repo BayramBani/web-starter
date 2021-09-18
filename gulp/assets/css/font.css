@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Parisienne;
+    src: local('Parisienne'), url('../font/Parisienne-Regular.ttf');
+}
+
+h1 {
+    font-size: 50pt;
+    color: dodgerblue;
+    font-family: Parisienne, 'sans-serif';
+}

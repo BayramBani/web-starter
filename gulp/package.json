@@ -1,0 +1,29 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp",
+    "start": "gulp && live-server build",
+    "minhtml": "html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --minify-css true --minify-js true -o index.min.html index.html",
+    "mincss": "csso ./assets/css/style.css --output ./assets/css/style.min.css",
+    "minjs": "uglifyjs --compress --mangle -o ./assets/js/main.min.js -- ./assets/js/main.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "html-minifier": "^4.0.0",
+    "live-server": "^1.2.1",
+    "uglify-js": "^3.5.15"
+  }
+}

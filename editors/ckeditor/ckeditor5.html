@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <title>CKEditor 5</title>
+</head>
+<body>
+<main>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <h1 class="display-3 text-center text-primary">CKEditor 5</h1>
+        <br>
+        <textarea id="editor" name="editor" class="form-control" title="editor"></textarea>
+      </div>
+    </div>
+  </div>
+</main>
+<script src="https://cdn.ckeditor.com/ckeditor5/29.2.0/classic/ckeditor.js"></script>
+<script>
+  ClassicEditor
+    .create( document.querySelector( '#editor' ) )
+    .catch( error => {
+    console.error( error );
+  });
+</script>
+</body>
+</html>
